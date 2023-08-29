@@ -1,0 +1,53 @@
+<div class="album py-5 bg-body-tertiary">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                    <img src="../IMG/IMG1.jpeg">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="image" src="../IMG/IMG2.jpeg">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="image" src="../IMG/IMG3.jpeg">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="image" src="../IMG/IMG4.jpeg">
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="image" src="../IMG/IMG5.jpeg">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="image" src="../IMG/IMG6.jpeg">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="image" src="../IMG/IMG7.jpeg">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="image" src="../IMG/IMG8.jpeg">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img class="image" src="../IMG/IMG9.jpeg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
