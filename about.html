@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <meta name="description" content="Tattoo Artist in Nashville, TN">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+          rel="stylesheet">
+    <link href="CSS/about.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--Navigation-->
+<div id="nav-placeholder"></div>
+<script>
+    $.get("nav.html", function(data){
+        $("#nav-placeholder").replaceWith(data);
+    });
+</script>
+<!-- END Navigation -->
+
+<div class="container-fluid">
+    <div class="row about-container">
+        <!-- Left Column - Picture -->
+        <div class="col-md-6 picture-column">
+            <img src="IMG/Milo.jpg" alt="Your Name" class="profile-picture">
+        </div>
+        <!-- Right Column - Text -->
+        <div class="col-md-6">
+            <h1 class="name">Milo Patiño</h1>
+            <h2 class="artist">Tattoo Artist</h2> <br>
+            <p class="introduction text-justify">
+                Welcome! Where ink meets artistry! My name is Milo, I am originally from Chile and now proudly based in Nashville. I bring a blend of precision and imagination to turn tattoo ideas into captivating works of art. With an 15-year journey in the world of tattooing, I am an artist with a passion for turning your unique vision to life. My artistic journey began in Chile, where I dedicated my college years to mastering the art form. I developed art from the beginning in street art graffiti, mural’s, and developing techniques in oil acrylic canvas paintings, along with various painting techniques. Today, in the vibrant city of Nashville, I seamlessly blend my Chilean heritage and 15 years of expertise to create tattoos that tell stories and capture moments. Complementing everything I have learned to bring it all to the skin. Whether you're seeking traditional designs or one-of-a-kind concepts, explore the world of ink and creativity with me, where your tattoo aspirations come to life in vivid detail.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Add Bootstrap JavaScript and jQuery (optional, for some Bootstrap features) -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+/* Custom CSS for styling the page */
+body {
+    background-color: #f6f6f6;
+}
+.about-container {
+    padding: 50px;
+}
+
+.profile-picture {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+
+/* Adjust the column width for the picture */
+.picture-column {
+    flex-basis: 50%;
+}
+
+@font-face{
+    font-family: "Mariage";
+    src: url("../assets/Mariage.ttf");
+}
+
+.name {
+    color: 	#CDB587;
+    font-family: "Mariage", serif;
+    font-size: 100px;
+    text-shadow: 4px 4px #121212;
+
+}
+.introduction {
+    font-size: 25px;
+}
+
+.artist {
+    color: #CDB587;
+}
