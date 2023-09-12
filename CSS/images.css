@@ -1,0 +1,8 @@
+.jumbotron {
+    color: #284738;
+    background: #dce2df;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}

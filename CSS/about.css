@@ -25,12 +25,12 @@ body {
 .name {
     color: 	#CDB587;
     font-family: "Mariage", serif;
-    font-size: 100px;
+    font-size: 60px;
     text-shadow: 4px 4px #121212;
 
 }
 .introduction {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .artist {
